@@ -12,14 +12,21 @@
         }
 
         .header-top {
+           width: 100%;
             background: #2c5f5d;
             color: #fff;
-            padding: 8px 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
             font-size: 13px;
             text-align: center;
             font-family: "Roboto",sans-serif;
         }
-
+.para   {
+    width: 105%;
+     display: flex;
+            align-items: center;
+            justify-content: center;
+}
         .header-top i {
             margin: 0 15px;
             cursor: pointer;
@@ -62,7 +69,10 @@
         }
 
         .logo {
-            text-align: center;
+            /* text-align: center; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .logo img {
@@ -843,7 +853,7 @@
         }
 
         .footer-brand img {
-            height: 40px;
+            width: 160px;
             margin-bottom: 20px;
             filter: brightness(0) invert(1);
         }
